@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\tp\cont8b\simulacion
+Egenena
+Z0 w1760804032
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\Facultad\CLP\tp\genEna\simulacion
+Z5 8E:/Facultad/CLP/tp/genEna/fuentes/genEna.vhd
+Z6 FE:/Facultad/CLP/tp/genEna/fuentes/genEna.vhd
+l0
+L6
+Vb@GV?cFng0THPgaeG^PKW1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1760804038.393000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tp/genEna/fuentes/genEna.vhd|
+Z10 !s107 E:/Facultad/CLP/tp/genEna/fuentes/genEna.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 AHjMg?klWCF]U0KERe9o;1
+!i10b 1
+Agenena_arq
+R1
+R2
+R3
+Z13 DEx4 work 6 genena 0 22 b@GV?cFng0THPgaeG^PKW1
+l24
+L19
+V>0GW?QRoVS:j:3NB]VzM_2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 JX;eO6;3k>W>SIfohi0:@1
+!i10b 1
+Egenena_tb
+Z14 w1760803949
+R2
+R3
+R4
+Z15 8E:/Facultad/CLP/tp/genEna/fuentes/genEna_tb.vhd
+Z16 FE:/Facultad/CLP/tp/genEna/fuentes/genEna_tb.vhd
+l0
+L5
+V@b[V_aZRL^zcTCL=@TRcG0
+!s100 nkTHV3NihQBlXPIB8U[kY1
+R7
+32
+!i10b 1
+Z17 !s108 1760804038.425000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tp/genEna/fuentes/genEna_tb.vhd|
+Z19 !s107 E:/Facultad/CLP/tp/genEna/fuentes/genEna_tb.vhd|
+R11
+R12
+Agenena_tb_arq
+R1
+R13
+R2
+R3
+Z20 DEx4 work 9 genena_tb 0 22 @b[V_aZRL^zcTCL=@TRcG0
+l19
+L9
+Z21 VKHih>^ZG06CXz:E1H^:Xh3
+Z22 !s100 4PjDVkZ>FEhQd0C^okzA43
+R7
+32
+!i10b 1
+R17
+R18
+R19
+R11
+R12
