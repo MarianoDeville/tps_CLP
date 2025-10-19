@@ -1,12 +1,4 @@
-E:/Facultad/CLP/tp/cont_ctl/fuentes/cont_ctl.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tp/cont_ctl/fuentes/cont_ctl.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity cont_ctl
--- Compiling architecture cont_ctl_arq of cont_ctl
-
-} {} {}} E:/Facultad/CLP/tp/cont_ctl/fuentes/cont_ctl_tb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tp/cont_ctl/fuentes/cont_ctl_tb.vhd
+E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl_tb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl_tb.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -14,5 +6,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity cont_ctl_tb
 -- Compiling architecture cont_ctl_tb_arq of cont_ctl_tb
 -- Loading entity cont_ctl
+
+} {} {}} E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cont_ctl
+-- Compiling architecture cont_ctl_arq of cont_ctl
 
 } {} {}}

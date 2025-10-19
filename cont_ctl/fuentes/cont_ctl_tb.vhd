@@ -23,11 +23,11 @@ architecture cont_ctl_tb_arq of cont_ctl_tb is
 begin
 
 	-- Parte descriptiva
-	clk_tb <= not clk_tb after 1 ns;
-	rst_tb <= '0' after 2 ns;
-	--char_data_tb <= x"56" after 4 ns, x"10" after 10 ns, x"43" after 20 ns;
-	char_data_tb <= x"44" after 4 ns, x"43" after 10 ns, x"50" after 20 ns;
-	data_rdy_tb <= '1' after 4 ns, '0' after 6 ns, '1' after 10 ns, '0' after 12 ns, '1' after 20 ns, '0' after 22 ns;
+	clk_tb       <= not clk_tb after 1 ns;
+	rst_tb       <= '0' after 2 ns;
+
+	char_data_tb <= x"41" after 4 ns, 				x"56" after 10 ns, 				  x"0a" after 20 ns, 				x"43" after 30 ns;
+	data_rdy_tb  <= '1' after 4 ns, '0' after 6 ns, '1' after 10 ns, '0' after 12 ns, '1' after 20 ns, '0' after 22 ns, '1' after 30 ns, '0' after 32 ns;
 	
 	cont_ctl_inst: entity work.cont_ctl
 

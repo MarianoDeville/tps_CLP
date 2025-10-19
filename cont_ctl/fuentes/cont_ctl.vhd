@@ -1,3 +1,9 @@
+-------------------------------------------------------------------------------
+--  Project    : Contador controlado por UART
+--  Module     : cont_ctl.vhd
+--  Components : 
+--	Autor      : Mariano Deville
+--
 library IEEE;
 use IEEE.std_logic_1164.all;
 
@@ -29,7 +35,8 @@ architecture cont_ctl_arq of cont_ctl is
 	signal old_rx_data_rdy: std_logic := '0';
 	signal char_data:		std_logic_vector(7 downto 0) := (others => '0');
 	signal char_cmd:		std_logic_vector(7 downto 0) := (others => '0');
-	
+	signal value_cmd:		std_logic_vector(7 downto 0) := (others => '0');
+
 	signal rst_aux:			std_logic := '0';
 	signal rst_next:		std_logic := '0';
 	signal strb_vel_aux:	std_logic := '0';
@@ -40,16 +47,16 @@ architecture cont_ctl_arq of cont_ctl is
 	
 begin
 
-	char_recep: process(clk_ctl)
+	clock_sync: process(clk_ctl)
 	begin
 		if rising_edge(clk_ctl) then
-		
+
 			if run_temp = '1' then
 				contador <= contador + 1;
 			else
 				contador <= 0;
 			end if;
-			
+
 			if rst_ctl_i = '1' then
 				state			<= RESET;
 				rst_aux       	<= '1';
@@ -64,24 +71,26 @@ begin
 				old_rx_data_rdy <= rx_data_rdy_i;
 				-- If rising edge of rx_data_rdy_i, capture rx_data
 				if (rx_data_rdy_i = '1' and old_rx_data_rdy = '0') then
-					char_data		<= rx_data_i;	
-					
+					char_data		 <= rx_data_i;	
+
 					if rx_data_i = x"56" or rx_data_i = x"4f" then
-						char_cmd	<= rx_data_i;
+						char_cmd	 <= rx_data_i;
 					end if;
-					
+
 					if strb_vel_next = '1' then
 						strb_vel_aux <= '1';
+						value_cmd	 <= rx_data_i;
 					else
 						strb_vel_aux <= '0';
 					end if;		
-									
+
 					if ld_next = '1' then
-						ld_aux		<= '1';
+						ld_aux		 <= '1';
+						value_cmd	 <= rx_data_i;
 					else
-						ld_aux		<= '0';
+						ld_aux		 <= '0';
 					end if;
-					
+
 				end if;
 
 				if rst_next = '1' then
@@ -89,32 +98,30 @@ begin
 				else
 					rst_aux		<= '0';
 				end if;				
-
 			end if;	-- if !rst
 		end if; -- if rising_edge
 	end process;
-	
-	process(state, char_data, char_cmd, rst_aux, contador)
+
+	process(state, char_data, contador)
 	begin
 
 		next_state		<= state;
-		ena_ctl			<= '0';
-	
+
 		case state is
 
-			when IDLE =>
+			when IDLE =>						-- Esperando...
 
 				if contador >= 3 then
 					strb_vel_next	<= '0';
 					ld_next			<= '0';
 				end if;
-				
+
 				if strb_vel_next = '1' or ld_next = '1' then
 					run_temp 		<= '1';
 				else
 					run_temp 		<= '0';
 				end if;
-				
+
 				case char_data is
 					when x"43" =>				-- 'C' Comenzar
 						ena_ctl		<= '1';
@@ -126,12 +133,12 @@ begin
 						next_state	<= IDLE;
 
 					when x"41" =>				-- 'A' Ascendente
-						ena_ctl		<= '0';
+						ena_ctl		<= '1';
 						up_ctl		<= '1';
 						next_state	<= IDLE;
 
 					when x"44" =>				-- 'D' Descendente
-						ena_ctl		<= '0';
+						ena_ctl		<= '1';
 						up_ctl		<= '0';
 						next_state	<= IDLE;
 
@@ -145,10 +152,10 @@ begin
 						end if;
 						
 					when others =>
-						next_state		<= IDLE;
+						next_state	<= IDLE;
 				end case;
 
-			when WAIT_PARAM =>
+				when WAIT_PARAM =>				-- Espero el segundo caracter del comando
 
 				if char_cmd = x"56" then      	-- 'V' Espero parámetro de velocidad
 					strb_vel_next	<= '1';
@@ -158,19 +165,19 @@ begin
 
 				next_state	<= IDLE;
 
-			when RESET =>
-			
+			when RESET =>						-- Reseteo el contador
+
 				ena_ctl		<= '0';
 				up_ctl		<= '1';
 				rst_next	<= '1';
 				next_state	<= IDLE;
 
-			when others =>
+			when others =>						-- Estado indefinido
 				next_state	<= IDLE;
 		end case;
 	end process;
-	
-	val_config_o	<= rx_data_i;
+
+	val_config_o	<= value_cmd;
 	ld_ctl			<= ld_aux;
 	strobe_ctl		<= strb_vel_aux;
 	rst_ctl_o		<= rst_aux;

@@ -20,11 +20,13 @@ architecture cont8b_tb_arq of cont8b_tb is
 	
 begin
 	-- Parte descriptiva
-	up_tb <= '0' after 2 ns, '1' after 4 ns;
-	clk_tb <= not clk_tb after 1 ns;
-	rst_tb <= '0' after 6 ns, '1' after 16 ns, '0' after 20 ns;
-	value_tb <= x"11" after 10 ns;
-	ld_tb <= '1' after 10 ns, '0' after 12 ns;
+	clk_tb   <= not clk_tb after 1 ns;
+	
+	up_tb    <= '0' after 30 ns;
+	rst_tb   <= '0' after 6 ns, '1' after 16 ns, '0' after 20 ns;
+	
+	value_tb <= x"0a" after 10 ns;
+	ld_tb    <= '1' after 12 ns, '0' after 14 ns;
 	
 	cont8b_inst: entity work.cont8b
 

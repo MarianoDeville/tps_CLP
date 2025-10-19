@@ -1,3 +1,9 @@
+-------------------------------------------------------------------------------
+--  Project    : Contador controlado por UART
+--  Module     : genEna.vhd
+--  Components : 
+--	Autor      : Mariano Deville
+--
 library IEEE;
 use 	IEEE.std_logic_1164.all;
 use	IEEE.numeric_std.all;
@@ -25,10 +31,10 @@ begin
 	-- Parte descriptiva
 	process(clk_ena)
 		variable aux: integer range 0 to 255 := 0;
-		
+
 	begin
 		if rising_edge(clk_ena) then
-		
+
 			if ena = '0' then
 				q_aux <= '0';
 			else
@@ -48,6 +54,6 @@ begin
 			end if;
 		end if;
 	end process;
-	
+
 	ena_gen <= q_aux;
 end;

@@ -1,3 +1,9 @@
+-------------------------------------------------------------------------------
+--  Project    : Contador controlado por UART
+--  Module     : cont8b.vhd
+--  Components : 
+--	Autor      : Mariano Deville
+--
 library IEEE;
 use IEEE.std_logic_1164.all;
 use	IEEE.numeric_std.all;
@@ -26,29 +32,30 @@ architecture cont8b_arq of cont8b is
 	
 begin
 	-- Parte descriptiva
-	--Registro de estado
 	reg: process(clk_cont)
 	begin
+
 		if rising_edge(clk_cont) then
+		
 			if rst_cont = '1' then
 				estadoActual <= (others => '0');
 			else
 				estadoActual <= estadoSiguiente;
 			end if;
+			
+			if ld_cont = '1' then
+				preset <= unsigned(value_i);
+				estadoActual <= (others => '0');
+			end if;
 		end if;
 	end process;
-	
--- Lógica de próximo estado
-	process(estadoActual, rst_cont, ena_cont, up_cont, up_cont, value_i, preset)
-	
+
+	-- Lógica de próximo estado
+	process(estadoActual, ena_cont)
+
 	begin
 	
-		if rst_cont = '1' then
-			estadoSiguiente <= (others => '0');
-		elsif up_cont = '1' then
-			preset <= unsigned(value_i);
-			estadoSiguiente <= unsigned(value_i);
-		elsif ena_cont = '1' then
+		if ena_cont = '1' then
 			if up_cont = '1' then
 
 				if estadoActual = preset then
@@ -59,13 +66,12 @@ begin
 			else
 
 				if estadoActual = 0 then
-					estadoSiguiente <= preset; -- vuelve al valor seteado
+					estadoSiguiente <= preset; 			-- vuelve al valor seteado
 				else
 					estadoSiguiente <= estadoActual - 1;
 				end if;
 			end if;
 		else
-
 			estadoSiguiente <= estadoActual;
 		end if;
 	end process;
