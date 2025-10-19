@@ -16,6 +16,10 @@ Lic. Mariano Ariel Deville
 ```
 /tps_CLP
 │
+├── /UART_cont				<----------------- Trabajo práctico final de la materia
+│   ├── TP final - CLP - Deville Mariano.pdf
+│   └── UART_cont.xpr
+│
 ├── /cont_ctl
 │   ├── /fuentes
 │   │   ├── cont_ctl.vhd
@@ -124,9 +128,6 @@ Lic. Mariano Ariel Deville
 │       ├── uart_led_timing_ArtyZ7.xdc
 │       ├── uart_rx.vhd
 │       └── uart_rx_ctl.vhd
-│
-├── /UART_cont				<----------------- Trabajo práctico final de la materia
-│   └── UART_cont.xpr
 │
 ├── .gitignore
 ├── LICENSE

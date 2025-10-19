@@ -1,1 +1,48 @@
+E:/Facultad/CLP/tps_CLP/cont_top/fuentes/cont_top_tb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tps_CLP/cont_top/fuentes/cont_top_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cont_ctl_tb
+-- Compiling architecture cont_ctl_tb_arq of cont_ctl_tb
+-- Loading entity cont_top
 
+} {} {}} E:/Facultad/CLP/tps_CLP/genEna/fuentes/genEna.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tps_CLP/genEna/fuentes/genEna.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity genEna
+-- Compiling architecture genEna_arq of genEna
+
+} {} {}} E:/Facultad/CLP/tps_CLP/cont8b/fuentes/cont8b.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tps_CLP/cont8b/fuentes/cont8b.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cont8b
+-- Compiling architecture cont8b_arq of cont8b
+
+} {} {}} E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cont_ctl
+-- Compiling architecture cont_ctl_arq of cont_ctl
+
+} {} {}} E:/Facultad/CLP/tps_CLP/cont_top/fuentes/cont_top.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/tps_CLP/cont_top/fuentes/cont_top.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cont_top
+-- Compiling architecture cont_top_arq of cont_top
+-- Loading entity cont_ctl
+-- Loading package NUMERIC_STD
+-- Loading entity genEna
+-- Loading entity cont8b
+
+} {} {}}

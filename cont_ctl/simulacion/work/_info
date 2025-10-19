@@ -4,31 +4,31 @@ K3
 cModel Technology
 dE:\Facultad\CLP\tps_CLP\cont_top\simulacion
 Econt_ctl
-Z0 w1760823114
+Z0 w1760833983
 Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z3 dE:\Facultad\CLP\tps_CLP\cont_ctl\simulacion
 Z4 8E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd
 Z5 FE:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd
 l0
-L5
+L11
 VlID8W`3;1DYPZ2I6T8l6K3
 Z6 OV;C;10.1d;51
 32
-Z7 !s108 1760823120.989000
+Z7 !s108 1760879136.687000
 Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd|
 Z9 !s107 E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd|
 Z10 o-work work -2002 -explicit -O0
 Z11 tExplicit 1
-!s100 @ZB`MdjiKE74jj;VHdQ@C2
+!s100 =i9C?i;eGO2Sa6iR<A7d]1
 !i10b 1
 Acont_ctl_arq
 R1
 R2
 Z12 DEx4 work 8 cont_ctl 0 22 lID8W`3;1DYPZ2I6T8l6K3
-l42
-L22
-VHLQLd1QYLni=beef5lQ=:3
+l48
+L28
+VQ7R;F7DeKbE9K6JH20hmD1
 R6
 32
 R7
@@ -36,7 +36,7 @@ R8
 R9
 R10
 R11
-!s100 =4zzPcRKZ9QX0d>9H?c;72
+!s100 <kE9MAY9G[LCWA_:eFUTe3
 !i10b 1
 Econt_ctl_tb
 Z13 w1760820070
@@ -52,7 +52,7 @@ VTQnc=EB69M5S<^nb<25<93
 R6
 32
 !i10b 1
-Z16 !s108 1760823121.020000
+Z16 !s108 1760879136.718000
 Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl_tb.vhd|
 Z18 !s107 E:/Facultad/CLP/tps_CLP/cont_ctl/fuentes/cont_ctl_tb.vhd|
 R10
