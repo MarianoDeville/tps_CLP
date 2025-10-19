@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Oct 19 01:13:16 2025
+# Process ID: 11200
+# Current directory: E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.runs/synth_1
+# Command line: vivado.exe -log UART_cont_top_VIO.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_cont_top_VIO.tcl
+# Log file: E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.runs/synth_1/UART_cont_top_VIO.vds
+# Journal file: E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source UART_cont_top_VIO.tcl -notrace

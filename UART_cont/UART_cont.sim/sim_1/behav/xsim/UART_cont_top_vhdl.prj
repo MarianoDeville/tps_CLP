@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/cont_ctl/fuentes/cont_ctl.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/genEna/fuentes/genEna.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/cont8b/fuentes/cont8b.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/cont_top/fuentes/cont_top.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/UART/fuentes/uart_rx.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/UART/fuentes/meta_harden.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/UART/fuentes/UART_cont.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/UART/fuentes/uart_baud_gen.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/UART/fuentes/uart_rx_ctl.vhd" \
+"../../../../UART_cont.srcs/sources_1/imports/tps_CLP/UART/fuentes/UART_cont_top.vhd" \
+
+# Do not sort compile order
+nosort
