@@ -1,0 +1,115 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\sumNb\simulacion
+Econtnb_modm
+Z0 w1760279825
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\Facultad\CLP\contNb_ModM\simulacion
+Z5 8E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd
+Z6 FE:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd
+l0
+L6
+V4ie?FA_c3U27Hd=3CQ>YL1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1760280635.215000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd|
+Z10 !s107 E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 aIUAMafVjiIn2QGhh@NhC1
+!i10b 1
+Acontnb_modm_arq
+Z13 DEx4 work 5 regnb 0 22 jzXj26m8D:NjZI87=jUIE2
+R1
+R2
+R3
+Z14 DEx4 work 11 contnb_modm 0 22 4ie?FA_c3U27Hd=3CQ>YL1
+l28
+L20
+VcJGV=@Em2z8zEdzO@]BK:2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 c:9Yk5VA<]0bNCJb[D]_>0
+!i10b 1
+Econtnb_modm_tb
+Z15 w1760280541
+R2
+R3
+R4
+Z16 8E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM_tb.vhd
+Z17 FE:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM_tb.vhd
+l0
+L5
+V=iUaWlYmEDUVJ8B8]_Hc11
+R7
+32
+Z18 !s108 1760280635.246000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM_tb.vhd|
+Z20 !s107 E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM_tb.vhd|
+R11
+R12
+!s100 a_Y=`SfIMP@4zhZLSNSRN3
+!i10b 1
+Acontnb_modm_tb_arq
+R1
+R14
+R2
+R3
+DEx4 work 14 contnb_modm_tb 0 22 =iUaWlYmEDUVJ8B8]_Hc11
+l20
+L9
+V^0aCH?[9HgM;Wa27jil333
+R7
+32
+R18
+R19
+R20
+R11
+R12
+!s100 7JTCXc^N]ZV<dA6X>1Hn23
+!i10b 1
+Eregnb
+Z21 w1760206523
+R2
+R3
+R4
+Z22 8E:/Facultad/CLP/regNb/fuentes/regNb.vhd
+Z23 FE:/Facultad/CLP/regNb/fuentes/regNb.vhd
+l0
+L5
+VjzXj26m8D:NjZI87=jUIE2
+!s100 6]4_eBgThoBGd;L=QD3[S2
+R7
+32
+!i10b 1
+Z24 !s108 1760280635.278000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/regNb/fuentes/regNb.vhd|
+Z26 !s107 E:/Facultad/CLP/regNb/fuentes/regNb.vhd|
+R11
+R12
+Aregnb_arq
+R2
+R3
+R13
+l22
+L19
+Z27 V0[7cXdcXnflNOzo4d_o9I3
+Z28 !s100 lNo>dKMQRAh4>^=XQ2Q0F3
+R7
+32
+!i10b 1
+R24
+R25
+R26
+R11
+R12

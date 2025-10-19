@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\cont4b\simulacion
+Esum1b
+Z0 w1757949830
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dE:\Facultad\CLP\sumNb\simulacion
+Z4 8E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd
+Z5 FE:/Facultad/CLP/sum1b/fuentes/sum1b.vhd
+l0
+L5
+VPnK4m<`[PEb]6>Z6:cbQc1
+!s100 YoAiJ36YcN>JEM7^M5oID0
+Z6 OV;C;10.1d;51
+32
+!i10b 1
+Z7 !s108 1760275134.576000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd|
+Z9 !s107 E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Asum1b_arq
+R1
+R2
+Z12 DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l19
+L17
+Z13 VN]e1bR7=oR5LBl@IboRg?3
+Z14 !s100 o[@Yb:Y_DK[E^B[:CHVCE0
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Esumnb
+Z15 w1760227959
+R1
+R2
+R3
+Z16 8E:/Facultad/CLP/sumNb/fuentes/sumNb.vhd
+Z17 FE:/Facultad/CLP/sumNb/fuentes/sumNb.vhd
+l0
+L5
+VoZiSRDeT<9N=e^[dNjceY1
+R6
+32
+Z18 !s108 1760275134.513000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/sumNb/fuentes/sumNb.vhd|
+Z20 !s107 E:/Facultad/CLP/sumNb/fuentes/sumNb.vhd|
+R10
+R11
+!s100 nimQJOjQGlR9b_?i1dOWd3
+!i10b 1
+Asumnb_arq
+R12
+R1
+R2
+Z21 DEx4 work 5 sumnb 0 22 oZiSRDeT<9N=e^[dNjceY1
+l22
+L19
+VMnB[i=^Ngh264Va3Y[g?=2
+R6
+32
+R18
+R19
+R20
+R10
+R11
+!s100 9l;8XZeJNE1@Q4=4:5GNT1
+!i10b 1
+Esumnb_tb
+Z22 w1760275128
+Z23 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z24 8E:/Facultad/CLP/sumNb/fuentes/sumNb_tb.vhd
+Z25 FE:/Facultad/CLP/sumNb/fuentes/sumNb_tb.vhd
+l0
+L6
+Vk]2]3MLELb<XD0T<oeLCo3
+R6
+32
+Z26 !s108 1760275134.544000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/sumNb/fuentes/sumNb_tb.vhd|
+Z28 !s107 E:/Facultad/CLP/sumNb/fuentes/sumNb_tb.vhd|
+R10
+R11
+!s100 kNJ[5QI1j:MBd:k1Ane^V3
+!i10b 1
+Asumnb_tb_arq
+R21
+R23
+R1
+R2
+DEx4 work 8 sumnb_tb 0 22 k]2]3MLELb<XD0T<oeLCo3
+l21
+L10
+VQhfa[07Y[VH:G[THbYlVK2
+R6
+32
+R26
+R27
+R28
+R10
+R11
+!s100 NT@OL43ReaQj7[ALd4khE2
+!i10b 1

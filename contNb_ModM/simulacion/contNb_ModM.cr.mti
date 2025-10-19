@@ -1,0 +1,29 @@
+E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM_tb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity contNb_ModM_tb
+-- Compiling architecture contNb_ModM_tb_arq of contNb_ModM_tb
+-- Loading package NUMERIC_STD
+-- Loading entity contNb_ModM
+
+} {} {}} E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity contNb_ModM
+-- Compiling architecture contNb_ModM_arq of contNb_ModM
+-- Loading entity regNb
+
+} {} {}} E:/Facultad/CLP/regNb/fuentes/regNb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/regNb/fuentes/regNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regNb
+-- Compiling architecture regNb_arq of regNb
+
+} {} {}}

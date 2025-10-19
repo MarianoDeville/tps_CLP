@@ -1,0 +1,18 @@
+E:/Facultad/CLP/regNb/fuentes/regNb_tb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/regNb/fuentes/regNb_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regNb_tb
+-- Compiling architecture regNb_tb_arq of regNb_tb
+-- Loading entity regNb
+
+} {} {}} E:/Facultad/CLP/regNb/fuentes/regNb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/regNb/fuentes/regNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regNb
+-- Compiling architecture regNb_arq of regNb
+
+} {} {}}

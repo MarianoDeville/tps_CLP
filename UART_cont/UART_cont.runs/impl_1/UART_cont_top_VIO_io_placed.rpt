@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date                      : Sun Oct 19 01:14:32 2025
+| Date                      : Sun Oct 19 06:47:17 2025
 | Host                      : desarrollo running 64-bit major release  (build 9200)
 | Command                   : report_io -file UART_cont_top_VIO_io_placed.rpt
 | Design                    : UART_cont_top_VIO

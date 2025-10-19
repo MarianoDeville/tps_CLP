@@ -1,0 +1,189 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\genEna\simulacion
+Econtnb_modm
+Z0 w1760279825
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\Facultad\CLP\contNb_ModM_Lento\simulacion
+Z5 8E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd
+Z6 FE:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd
+l0
+L6
+V4ie?FA_c3U27Hd=3CQ>YL1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1760291056.691000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd|
+Z10 !s107 E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 aIUAMafVjiIn2QGhh@NhC1
+!i10b 1
+Acontnb_modm_arq
+Z13 DEx4 work 5 regnb 0 22 jzXj26m8D:NjZI87=jUIE2
+R1
+R2
+R3
+Z14 DEx4 work 11 contnb_modm 0 22 4ie?FA_c3U27Hd=3CQ>YL1
+l28
+L20
+VcJGV=@Em2z8zEdzO@]BK:2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 c:9Yk5VA<]0bNCJb[D]_>0
+!i10b 1
+Econtnb_modm_lento
+Z15 w1760290850
+R1
+R2
+R3
+R4
+Z16 8E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento.vhd
+Z17 FE:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento.vhd
+l0
+L6
+Vef;@ncUc4ESYVfVQJgneJ2
+R7
+32
+Z18 !s108 1760291056.596000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento.vhd|
+Z20 !s107 E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento.vhd|
+R11
+R12
+!s100 Tcl7lRLb<5lS4JSLQ;kHU2
+!i10b 1
+Acontnb_modm_lento_arq
+Z21 DEx4 work 6 genena 0 22 zXCbEDHIAY4:EXNnOFTbP3
+R14
+R1
+R2
+R3
+Z22 DEx4 work 17 contnb_modm_lento 0 22 ef;@ncUc4ESYVfVQJgneJ2
+l25
+L21
+VgY]@8iz<5[nMB]REGX`U12
+R7
+32
+R18
+R19
+R20
+R11
+R12
+!s100 _E_0a6h7_7Dn5VJjGU0Mf3
+!i10b 1
+Econtnb_modm_lento_tb
+R15
+R2
+R3
+R4
+Z23 8E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento_tb.vhd
+Z24 FE:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento_tb.vhd
+l0
+L5
+VC0D]iO4@FHY[T1g<eGADc0
+R7
+32
+Z25 !s108 1760291056.628000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento_tb.vhd|
+Z27 !s107 E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento_tb.vhd|
+R11
+R12
+!s100 PP0e8i9n;c_n=[Ga1Z72b3
+!i10b 1
+Acontnb_modm_lento_tb_arq
+R1
+R22
+R2
+R3
+DEx4 work 20 contnb_modm_lento_tb 0 22 C0D]iO4@FHY[T1g<eGADc0
+l21
+L9
+VVGboLEDYMb9i<iZWOPn[=1
+R7
+32
+R25
+R26
+R27
+R11
+R12
+!s100 j:zH?LjNlhe:@;jV6D6Wj3
+!i10b 1
+Egenena
+Z28 w1760284286
+R2
+R3
+R4
+Z29 8E:/Facultad/CLP/genEna/fuentes/genEna.vhd
+Z30 FE:/Facultad/CLP/genEna/fuentes/genEna.vhd
+l0
+L5
+VzXCbEDHIAY4:EXNnOFTbP3
+R7
+32
+Z31 !s108 1760291056.661000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/genEna/fuentes/genEna.vhd|
+Z33 !s107 E:/Facultad/CLP/genEna/fuentes/genEna.vhd|
+R11
+R12
+!s100 6C:VK<b;`aWAH9;9nznQU0
+!i10b 1
+Agenena_arq
+R2
+R3
+R21
+l20
+L18
+VZe@NcSMPX8;IongRohlWX2
+R7
+32
+R31
+R32
+R33
+R11
+R12
+!s100 25SN9MFEY^i62Xoc^1Je63
+!i10b 1
+Eregnb
+Z34 w1760206523
+R2
+R3
+R4
+Z35 8E:/Facultad/CLP/regNb/fuentes/regNb.vhd
+Z36 FE:/Facultad/CLP/regNb/fuentes/regNb.vhd
+l0
+L5
+VjzXj26m8D:NjZI87=jUIE2
+!s100 6]4_eBgThoBGd;L=QD3[S2
+R7
+32
+!i10b 1
+Z37 !s108 1760291056.722000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/regNb/fuentes/regNb.vhd|
+Z39 !s107 E:/Facultad/CLP/regNb/fuentes/regNb.vhd|
+R11
+R12
+Aregnb_arq
+R2
+R3
+R13
+l22
+L19
+Z40 V0[7cXdcXnflNOzo4d_o9I3
+Z41 !s100 lNo>dKMQRAh4>^=XQ2Q0F3
+R7
+32
+!i10b 1
+R37
+R38
+R39
+R11
+R12

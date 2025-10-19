@@ -17,9 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param synth.incrementalSynthesisCache C:/Users/maria/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10920-desarrollo/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -46,7 +43,7 @@ read_vhdl -library xil_defaultlib {
   E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/imports/tps_CLP/UART/fuentes/uart_rx_ctl.vhd
   {E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/imports/fuentes/UART_cont_top _VIO.vhd}
 }
-read_ip -quiet e:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/ip/vio/vio.xci
+read_ip -quiet E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/ip/vio/vio.xci
 set_property used_in_implementation false [get_files -all e:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/ip/vio/vio.xdc]
 set_property used_in_implementation false [get_files -all e:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/ip/vio/vio_ooc.xdc]
 

@@ -1,0 +1,148 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\sumNb\simulacion
+Esum1b
+Z0 w1757949830
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dE:\Facultad\CLP\sum_resNb\simulacion
+Z4 8E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd
+Z5 FE:/Facultad/CLP/sum1b/fuentes/sum1b.vhd
+l0
+L5
+VPnK4m<`[PEb]6>Z6:cbQc1
+!s100 YoAiJ36YcN>JEM7^M5oID0
+Z6 OV;C;10.1d;51
+32
+!i10b 1
+Z7 !s108 1760224067.777000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd|
+Z9 !s107 E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Asum1b_arq
+R1
+R2
+Z12 DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l19
+L17
+Z13 VN]e1bR7=oR5LBl@IboRg?3
+Z14 !s100 o[@Yb:Y_DK[E^B[:CHVCE0
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Esum_resnb
+Z15 w1760223491
+R1
+R2
+R3
+Z16 8E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb.vhd
+Z17 FE:/Facultad/CLP/sum_resNb/fuentes/sum_resNb.vhd
+l0
+L5
+V2nICXAAil6<;Wd8DOoeh`1
+R6
+32
+Z18 !s108 1760224067.685000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb.vhd|
+Z20 !s107 E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb.vhd|
+R10
+R11
+!s100 ZY>oN1UM:H5RzzZQV3j]R3
+!i10b 1
+Asum_resnb_arq
+Z21 DEx4 work 5 sumnb 0 22 oZiSRDeT<9N=e^[dNjceY1
+R1
+R2
+Z22 DEx4 work 9 sum_resnb 0 22 2nICXAAil6<;Wd8DOoeh`1
+l24
+L20
+V7Vn5cHz4Z2bC<bfG6AZQH3
+R6
+32
+R18
+R19
+R20
+R10
+R11
+!s100 Y>a07nnNgcgciVH`ZoHGT2
+!i10b 1
+Esum_resnb_tb
+Z23 w1760224063
+R1
+R2
+R3
+Z24 8E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb_tb.vhd
+Z25 FE:/Facultad/CLP/sum_resNb/fuentes/sum_resNb_tb.vhd
+l0
+L5
+V?^8QlzJNAjD8jP3WA_TLA3
+R6
+32
+Z26 !s108 1760224067.717000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb_tb.vhd|
+Z28 !s107 E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb_tb.vhd|
+R10
+R11
+!s100 X6Z_j6UMf@KYZ3EHRNOD12
+!i10b 1
+Asum_resnb_tb_arq
+R22
+R1
+R2
+DEx4 work 12 sum_resnb_tb 0 22 ?^8QlzJNAjD8jP3WA_TLA3
+l21
+L9
+V2RkEOlkLa=5H6QCfQj0>U3
+R6
+32
+R26
+R27
+R28
+R10
+R11
+!s100 MKg7UgCN<HWOSl0l==B?K2
+!i10b 1
+Esumnb
+Z29 w1760205252
+R1
+R2
+R3
+Z30 8E:/Facultad/CLP/sum_resNb/simulacion/sumNb.vhd
+Z31 FE:/Facultad/CLP/sum_resNb/simulacion/sumNb.vhd
+l0
+L5
+VoZiSRDeT<9N=e^[dNjceY1
+R6
+32
+Z32 !s108 1760224067.747000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/sum_resNb/simulacion/sumNb.vhd|
+Z34 !s107 E:/Facultad/CLP/sum_resNb/simulacion/sumNb.vhd|
+R10
+R11
+!s100 nimQJOjQGlR9b_?i1dOWd3
+!i10b 1
+Asumnb_arq
+R12
+R1
+R2
+R21
+l22
+L19
+VMnB[i=^Ngh264Va3Y[g?=2
+!s100 9l;8XZeJNE1@Q4=4:5GNT1
+R6
+32
+R32
+R33
+R34
+R10
+R11
+!i10b 1

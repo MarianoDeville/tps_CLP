@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Sun Oct 19 01:14:30 2025
+| Date         : Sun Oct 19 06:47:11 2025
 | Host         : desarrollo running 64-bit major release  (build 9200)
 | Command      : report_drc -file UART_cont_top_VIO_drc_opted.rpt -pb UART_cont_top_VIO_drc_opted.pb -rpx UART_cont_top_VIO_drc_opted.rpx
 | Design       : UART_cont_top_VIO
@@ -24,15 +24,27 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 1
-+--------+----------+--------------------+------------+
-| Rule   | Severity | Description        | Violations |
-+--------+----------+--------------------+------------+
-| ZPS7-1 | Warning  | PS7 block required | 1          |
-+--------+----------+--------------------+------------+
+             Violations found: 3
++--------+----------+------------------------+------------+
+| Rule   | Severity | Description            | Violations |
++--------+----------+------------------------+------------+
+| DPIP-1 | Warning  | Input pipelining       | 1          |
+| DPOP-2 | Warning  | MREG Output pipelining | 1          |
+| ZPS7-1 | Warning  | PS7 block required     | 1          |
++--------+----------+------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP U0/UART_cont_inst/cont_top_inst/genEna_inst/seteo_reg input U0/UART_cont_inst/cont_top_inst/genEna_inst/seteo_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP U0/UART_cont_inst/cont_top_inst/genEna_inst/seteo_reg multiplier stage U0/UART_cont_inst/cont_top_inst/genEna_inst/seteo_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
 ZPS7-1#1 Warning
 PS7 block required  
 The PS7 cell must be used in this Zynq design in order to enable correct default configuration.

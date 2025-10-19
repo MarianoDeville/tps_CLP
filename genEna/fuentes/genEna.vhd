@@ -6,7 +6,7 @@
 -------------------------------------------------------------------------------
 library IEEE;
 use 	IEEE.std_logic_1164.all;
-use	IEEE.numeric_std.all;
+use		IEEE.numeric_std.all;
 
 -- Declaración de entidad
 entity genEna is
@@ -24,32 +24,34 @@ end;
 -- Cuerpo de arquitectura
 architecture genEna_arq of genEna is
 	-- Parte declarativa
-	signal seteo: std_logic_vector(7 downto 0) := (others => '0');
+	signal seteo: unsigned(23 downto 0) := (others => '0');
+	signal aux: unsigned(23 downto 0) := (others => '0');
 	signal q_aux: std_logic := '0';
 	
 begin
 	-- Parte descriptiva
 	process(clk_ena)
-		variable aux: integer range 0 to 255 := 0;
-
+		
 	begin
 		if rising_edge(clk_ena) then
 
+			if strobe = '1' then
+				seteo <= resize(unsigned(vel) * unsigned(vel) * unsigned(vel), 24);
+				aux   <= (others => '0');
+			end if;
+
 			if ena = '0' then
 				q_aux <= '0';
+				aux   <= (others => '0');
 			else
-				if strobe = '1' then
-					seteo <= vel;
-					aux   := 0;
-					q_aux <= '0';
-				elsif seteo = x"00" then
+				if seteo = x"000000" or seteo = x"000001" then
 					q_aux <= not q_aux;
-				elsif aux = to_integer(unsigned(seteo)) - 1 then
+				elsif aux = to_integer(seteo) - 1 then
 					q_aux <= '1';
-					aux   := 0;
+					aux   <= (others => '0');
 				else
 					q_aux <= '0';
-					aux   := aux + 1;
+					aux   <= aux + 1;
 				end if;
 			end if;
 		end if;

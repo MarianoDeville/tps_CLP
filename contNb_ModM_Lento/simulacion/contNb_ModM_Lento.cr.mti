@@ -1,0 +1,48 @@
+E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity contNb_ModM_Lento
+-- Compiling architecture contNb_ModM_Lento_arq of contNb_ModM_Lento
+-- Loading entity contNb_ModM
+-- Loading entity genEna
+
+} {} {}} E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento_tb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/contNb_ModM_Lento/fuentes/contNb_ModM_Lento_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity contNb_ModM_Lento_tb
+-- Compiling architecture contNb_ModM_Lento_tb_arq of contNb_ModM_Lento_tb
+-- Loading package NUMERIC_STD
+-- Loading entity contNb_ModM_Lento
+
+} {} {}} E:/Facultad/CLP/regNb/fuentes/regNb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/regNb/fuentes/regNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regNb
+-- Compiling architecture regNb_arq of regNb
+
+} {} {}} E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/contNb_ModM/fuentes/contNb_ModM.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity contNb_ModM
+-- Compiling architecture contNb_ModM_arq of contNb_ModM
+-- Loading entity regNb
+
+} {} {}} E:/Facultad/CLP/genEna/fuentes/genEna.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/genEna/fuentes/genEna.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity genEna
+-- Compiling architecture genEna_arq of genEna
+
+} {} {}}

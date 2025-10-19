@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\tps_CLP\sum1b\simulacion
+Esum1b
+Z0 w1757949830
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dE:\Facultad\CLP\tps_CLP\sum4b\simulacion
+Z4 8E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd
+Z5 FE:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd
+l0
+L5
+VPnK4m<`[PEb]6>Z6:cbQc1
+!s100 YoAiJ36YcN>JEM7^M5oID0
+Z6 OV;C;10.1d;51
+32
+!i10b 1
+Z7 !s108 1760869931.150000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd|
+Z9 !s107 E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Asum1b_arq
+R1
+R2
+Z12 DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l19
+L17
+Z13 VN]e1bR7=oR5LBl@IboRg?3
+Z14 !s100 o[@Yb:Y_DK[E^B[:CHVCE0
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Esum4b
+Z15 w1760869393
+R1
+R2
+R3
+Z16 8E:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b.vhd
+Z17 FE:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b.vhd
+l0
+L5
+V=c:V42K<2mU8g2ijY^2lD1
+R6
+32
+Z18 !s108 1760869931.090000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b.vhd|
+Z20 !s107 E:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b.vhd|
+R10
+R11
+!s100 [Ck8AACFBKD5cL]3?W9Cm3
+!i10b 1
+Asum4b_arq
+R12
+R1
+R2
+Z21 DEx4 work 5 sum4b 0 22 =c:V42K<2mU8g2ijY^2lD1
+l23
+L17
+VcgkSd_2[G=4`:GnAnKd<j0
+R6
+32
+R18
+R19
+R20
+R10
+R11
+!s100 FndbbcaR@YFfiJ>faF>R`3
+!i10b 1
+Esum4b_tb
+Z22 w1760869923
+R1
+R2
+R3
+Z23 8E:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b_tb.vhd
+Z24 FE:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b_tb.vhd
+l0
+L5
+Vmo`S9[kfaT7`KTcQjT`S_2
+R6
+32
+Z25 !s108 1760869931.120000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b_tb.vhd|
+Z27 !s107 E:/Facultad/CLP/tps_CLP/sum4b/fuentes/sum4b_tb.vhd|
+R10
+R11
+!s100 7aJe2So2U;^J2F8DcS?CL1
+!i10b 1
+Asum4b_tb_arq
+R21
+R1
+R2
+DEx4 work 8 sum4b_tb 0 22 mo`S9[kfaT7`KTcQjT`S_2
+l17
+L9
+VE`Xh:]G_zRbAEA9>8FaaZ1
+!s100 Ik]YeZY3g4onh9c?k6HPB0
+R6
+32
+R25
+R26
+R27
+R10
+R11
+!i10b 1

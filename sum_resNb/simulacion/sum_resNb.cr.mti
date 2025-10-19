@@ -1,0 +1,36 @@
+E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb_tb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum_resNb_tb
+-- Compiling architecture sum_resNb_tb_arq of sum_resNb_tb
+-- Loading entity sum_resNb
+
+} {} {}} E:/Facultad/CLP/sum_resNb/simulacion/sumNb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/sum_resNb/simulacion/sumNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sumNb
+-- Compiling architecture sumNb_arq of sumNb
+-- Loading entity sum1b
+
+} {} {}} E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/sum1b/fuentes/sum1b.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum1b
+-- Compiling architecture sum1b_arq of sum1b
+
+} {} {}} E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb.vhd {1 {vcom -work work -2002 -explicit E:/Facultad/CLP/sum_resNb/fuentes/sum_resNb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum_resNb
+-- Compiling architecture sum_resNb_arq of sum_resNb
+-- Loading entity sumNb
+
+} {} {}}

@@ -19,7 +19,7 @@ architecture genEna_tb_arq of genEna_tb is
 begin
 	-- Parte descriptiva
 	clk_tb  <= not clk_tb after 1 ns;
-	val_tb  <= x"09" after 10 ns;
+	val_tb  <= x"02" after 10 ns;
 	strb_tb <= '1' after 10 ns, '0' after 12 ns;
 	ena_tb  <= '1' after 25 ns;
 	

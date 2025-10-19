@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\cont4b\simulacion
+Eregnb
+Z0 w1760206523
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dE:\Facultad\CLP\regNb\simulacion
+Z4 8E:/Facultad/CLP/regNb/fuentes/regNb.vhd
+Z5 FE:/Facultad/CLP/regNb/fuentes/regNb.vhd
+l0
+L5
+VjzXj26m8D:NjZI87=jUIE2
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1760227153.160000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/regNb/fuentes/regNb.vhd|
+Z9 !s107 E:/Facultad/CLP/regNb/fuentes/regNb.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 6]4_eBgThoBGd;L=QD3[S2
+!i10b 1
+Aregnb_arq
+R1
+R2
+Z12 DEx4 work 5 regnb 0 22 jzXj26m8D:NjZI87=jUIE2
+l22
+L19
+V0[7cXdcXnflNOzo4d_o9I3
+!s100 lNo>dKMQRAh4>^=XQ2Q0F3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Eregnb_tb
+Z13 w1760227144
+R1
+R2
+R3
+Z14 8E:/Facultad/CLP/regNb/fuentes/regNb_tb.vhd
+Z15 FE:/Facultad/CLP/regNb/fuentes/regNb_tb.vhd
+l0
+L5
+Vcanz]k707f^7c`nc5Ab7<2
+!s100 iNIBhbkoSOC2CL8LX8`292
+R6
+32
+!i10b 1
+Z16 !s108 1760227153.190000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/regNb/fuentes/regNb_tb.vhd|
+Z18 !s107 E:/Facultad/CLP/regNb/fuentes/regNb_tb.vhd|
+R10
+R11
+Aregnb_tb_arq
+R12
+R1
+R2
+Z19 DEx4 work 8 regnb_tb 0 22 canz]k707f^7c`nc5Ab7<2
+l20
+L12
+Z20 VJ1AV_ZhbHEO]L@]2hh;`43
+Z21 !s100 cEb6b]Zf?i`CQ<6DgB8f`3
+R6
+32
+!i10b 1
+R16
+R17
+R18
+R10
+R11

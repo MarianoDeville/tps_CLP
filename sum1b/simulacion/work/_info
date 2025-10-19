@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+dE:\Facultad\CLP\tps_CLP\genEna\simulacion
+Esum1b
+Z0 w1757949830
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dE:\Facultad\CLP\tps_CLP\sum1b\simulacion
+Z4 8E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd
+Z5 FE:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd
+l0
+L5
+VPnK4m<`[PEb]6>Z6:cbQc1
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1760868833.822000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd|
+Z9 !s107 E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 YoAiJ36YcN>JEM7^M5oID0
+!i10b 1
+Asum1b_arq
+R1
+R2
+Z12 DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l19
+L17
+VN]e1bR7=oR5LBl@IboRg?3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 o[@Yb:Y_DK[E^B[:CHVCE0
+!i10b 1
+Esum1b_tb
+Z13 w1757954415
+R1
+R2
+R3
+Z14 8E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b_tb.vhd
+Z15 FE:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b_tb.vhd
+l0
+L5
+V1<L9SE8J8P6J>9GCN04BM2
+!s100 HoTc:fE;B=<Uk1X9=j6[X0
+R6
+32
+!i10b 1
+Z16 !s108 1760868833.851000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b_tb.vhd|
+Z18 !s107 E:/Facultad/CLP/tps_CLP/sum1b/fuentes/sum1b_tb.vhd|
+R10
+R11
+Asum1b_tb_arq
+R12
+R1
+R2
+DEx4 work 8 sum1b_tb 0 22 1<L9SE8J8P6J>9GCN04BM2
+l18
+L9
+V`37oHmCXj4XRzS?HWoFEG1
+!s100 z8C2=V]JTAIS3JEQH28271
+R6
+32
+!i10b 1
+R16
+R17
+R18
+R10
+R11

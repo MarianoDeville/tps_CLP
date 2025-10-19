@@ -60,14 +60,11 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param synth.incrementalSynthesisCache C:/Users/maria/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10920-desarrollo/incrSyn
   create_project -in_memory -part xc7z010clg400-1
   set_property board_part digilentinc.com:arty-z7-10:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
@@ -77,7 +74,7 @@ set rc [catch {
   set_property ip_output_repo E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   add_files -quiet E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.runs/synth_1/UART_cont_top_VIO.dcp
-  read_ip -quiet e:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/ip/vio/vio.xci
+  read_ip -quiet E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/sources_1/ip/vio/vio.xci
   read_xdc E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/constrs_1/imports/fuentes/uart_led_pins_ArtyZ7.xdc
   read_xdc E:/Facultad/CLP/tps_CLP/UART_cont/UART_cont.srcs/constrs_1/imports/fuentes/uart_led_timing_ArtyZ7.xdc
   link_design -top UART_cont_top_VIO -part xc7z010clg400-1

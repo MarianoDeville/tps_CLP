@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Sun Oct 19 01:14:40 2025
+| Date             : Sun Oct 19 06:47:25 2025
 | Host             : desarrollo running 64-bit major release  (build 9200)
 | Command          : report_power -file UART_cont_top_VIO_power_routed.rpt -pb UART_cont_top_VIO_power_summary_routed.pb -rpx UART_cont_top_VIO_power_routed.rpx
 | Design           : UART_cont_top_VIO
@@ -53,13 +53,14 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.006 |        5 |       --- |             --- |
-| Slice Logic              |    <0.001 |     2078 |       --- |             --- |
-|   LUT as Logic           |    <0.001 |      681 |     17600 |            3.87 |
-|   Register               |    <0.001 |     1126 |     35200 |            3.20 |
-|   CARRY4                 |    <0.001 |       13 |      4400 |            0.30 |
+| Slice Logic              |     0.001 |     2204 |       --- |             --- |
+|   LUT as Logic           |    <0.001 |      765 |     17600 |            4.35 |
+|   Register               |    <0.001 |     1134 |     35200 |            3.22 |
+|   CARRY4                 |    <0.001 |       37 |      4400 |            0.84 |
 |   LUT as Distributed RAM |    <0.001 |       24 |      6000 |            0.40 |
-|   Others                 |     0.000 |      117 |       --- |             --- |
-| Signals                  |     0.001 |     1494 |       --- |             --- |
+|   Others                 |     0.000 |      119 |       --- |             --- |
+| Signals                  |     0.001 |     1630 |       --- |             --- |
+| DSPs                     |    <0.001 |        1 |        80 |            1.25 |
 | I/O                      |    <0.001 |        3 |       100 |            3.00 |
 | Static Power             |     0.093 |          |           |                 |
 | Total                    |     0.102 |          |           |                 |
@@ -72,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.011 |       0.008 |      0.004 |
+| Vccint    |       1.000 |     0.012 |       0.008 |      0.004 |
 | Vccaux    |       1.800 |     0.005 |       0.000 |      0.005 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -150,6 +151,9 @@ Table of Contents
 | Name                     | Power (W) |
 +--------------------------+-----------+
 | UART_cont_top_VIO        |     0.009 |
+|   U0                     |     0.002 |
+|     UART_cont_inst       |     0.002 |
+|       cont_top_inst      |     0.001 |
 |   dbg_hub                |     0.004 |
 |     inst                 |     0.004 |
 |       BSCANID.u_xsdbm_id |     0.004 |
