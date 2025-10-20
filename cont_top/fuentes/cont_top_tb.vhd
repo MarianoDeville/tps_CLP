@@ -20,17 +20,17 @@ begin
 	clk_tb <= not clk_tb after 1 ns;
 	rst_tb <= '0' after 2 ns;
 
-	char_data_tb <= x"4f" after 4 ns,					-- Seteo offset
+	char_data_tb <= x"4f" after 4 ns,					-- 'O' - Seteo offset
 					x"0a" after 10 ns,					-- Valor del offset
-					x"43" after 20 ns,					-- Arranco contador
-					x"44" after 70 ns,					-- seteo cuenta descendente
-					x"50" after 100 ns;					-- Parar
+					x"43" after 20 ns,					-- 'C' - Arranco contador
+					x"44" after 70 ns,					-- 'D' - Cuenta descendente
+					x"50" after 100 ns;					-- 'P' - Parar
 					
---	char_data_tb <= x"56" after 4 ns,					-- Seteo velocidad de cuenta
+--	char_data_tb <= x"56" after 4 ns,					-- 'V' - Seteo velocidad de cuenta
 --					x"15" after 10 ns,					-- Valor de la velocidad
---					x"4f" after 20 ns,					-- Seteo offset
+--					x"4f" after 20 ns,					-- 'O' - Seteo offset
 --					x"0a" after 70 ns,					-- Valor del offset
---					x"43" after 100 ns;					-- Arranco contador
+--					x"43" after 100 ns;					-- 'C' - Arranco contador
 					
 	data_rdy_tb  <= '1' after 4 ns, '0' after 6 ns,		-- Strobe offset
 					'1' after 10 ns, '0' after 12 ns,	-- Strobe Valor offset
